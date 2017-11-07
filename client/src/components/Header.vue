@@ -2,7 +2,7 @@
          <div class="site-header" style="clear:both;">
         <div class="container">
             <div class="header-logo">
-                <a href="index.php" title="雅客官网"><img src="/static/img/vn-logo.png" /></a>
+                <a href="index.php" title="雅客官网"><img src="/static/img/logo.png" /></a>
             </div>
             <div class="header-nav">
                 <ul class="nav-list">
