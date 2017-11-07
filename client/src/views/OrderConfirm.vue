@@ -142,9 +142,9 @@
             return {
                 cartList :[],
                 subTotal:0,
-                shipping:100,
-                discount:300,
-                tax:100,
+                shipping:10,
+                discount:20,
+                tax:20,
             }
         },
         created(){

@@ -17,7 +17,7 @@
     </div>
 
     <div class="order-create">
-      <div class="order-create-pic"><img src="/static/img/ok-2.png" alt=""></div>
+      <div class="order-create-pic"><img src="/static/img/go.jpg" alt=""></div>
       <div class="order-create-main">
         <h3>恭喜您！<br>您的订单正在处理中!</h3>
         <p>

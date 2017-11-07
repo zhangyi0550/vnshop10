@@ -10,7 +10,7 @@
                         <a class="btn-category-list" href="catalog.php" style="display:none;">全部商品分类</a>
                     </li>
                     <li class="nav-item">
-                        <a class="link" href="category.php?id=76"><span>电子产品</span></a>
+                        <a class="link" href="category.php?id=76"><span></span></a>
                         <div class='item-children'>
                             <div class="container">
                                 <ul class="children-list clearfix">
@@ -59,15 +59,15 @@
           <div class="md-content">
             <div class="confirm-tips">
               <div class="error-wrap">
-                <span class="error error-show" >用户名或密码错误</span>
+                <span class="error error-show" ></span>
               </div>
               <ul>
                 <li class="regi_form_input">
-                  <input type="text" tabindex="1" name="loginname" v-model="userName" placeholder="User Name" data-type="loginname" class="regi_login_input regi_login_input_left">
+                  <input type="text" tabindex="1" name="loginname" v-model="userName" placeholder="请输入您的账号" data-type="loginname" class="regi_login_input regi_login_input_left">
                 </li>
                 <li class="regi_form_input noMargin">
                   <i class="icon IconPwd"></i>
-                  <input type="password" tabindex="2" name="password" v-model="userPwd" placeholder="Password" class="regi_login_input regi_login_input_left login-input-no input_text" @keyup.enter="login">
+                  <input type="password" tabindex="2" name="password" v-model="userPwd" placeholder="请输入密码" class="regi_login_input regi_login_input_left login-input-no input_text" @keyup.enter="login">
                 </li>
               </ul>
 
