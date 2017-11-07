@@ -5,17 +5,17 @@
     <div class="accessory-result-page accessory-page">
         <div class="container">
             <div class="filter-nav">
-                <span class="sortby">Sort by:</span>
-                <a href="javascript:void(0)" class="default cur">Default</a>
-                <a href="javascript:void(0)" class="price" @click="sortGoods">价格 <svg class="icon icon-arrow-short"><use xlink:href="#icon-arrow-short"></use></svg></a>
+                <span class="sortby">商品排序:</span>
+               
+                <a href="javascript:void(0)" class="price" @click="sortGoods">价格升降↑↓<svg class="icon icon-arrow-short"><use xlink:href="#icon-arrow-short"></use></svg></a>
                 <a href="javascript:void(0)" class="filterby stopPop">Filter by</a>
             </div>
             <div class="accessory-result">
                 <!-- filter -->
                 <div class="filter stopPop" id="filter">
                     <dl class="filter-price">
-                        <dt>Price:</dt>
-                        <dd><a href="javascript:void(0)" :class="{'cur':priceChecked == 'all'}"  @click="setPriceFilter('all')">All</a></dd>
+                        <dt>价格:</dt>
+                        <dd><a href="javascript:void(0)" :class="{'cur':priceChecked == 'all'}"  @click="setPriceFilter('all')">全部</a></dd>
                         <dd v-for="(item,index) in priceFilter" :key="index" class="cur">
                             <a @click="setPriceFilter(index)" :class="{'cur': priceChecked == index}" href="javascript:void(0)">{{item.startPrice}} - {{item.endPrice}}</a>
                         </dd>
@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="main">
                                     <div class="name">{{item.productName}}</div>
-                                    <div class="price">{{item.salePrice}}</div>
+                                    <div class="price">¥{{item.salePrice}}</div>
                                     <div class="btn-area">
                                         <a href="javascript:;" class="btn btn--m" @click="addCart(item.productId)">加入购物车</a>
                                     </div>

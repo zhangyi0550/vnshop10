@@ -3,33 +3,7 @@
           <div class="site-footer">
         <div class="container">
             <div class="footer-service">
-                <!-- <ul class="list-service clearfix">
-                    <li>
-                        <a rel="nofollow" href="javascript:void(0)">
-                            <i class="iconfont"></i>1小时快修服务
-                        </a>
-                    </li>
-                    <li>
-                        <a rel="nofollow" href="javascript:void(0)">
-                            <i class="iconfont"></i>7天无理由退货
-                        </a>
-                    </li>
-                    <li>
-                        <a rel="nofollow" href="javascript:void(0)">
-                            <i class="iconfont"></i>15天免费换货
-                        </a>
-                    </li>
-                    <li>
-                        <a rel="nofollow" href="javascript:void(0)">
-                            <i class="iconfont"></i>满150元包邮
-                        </a>
-                    </li>
-                    <li>
-                        <a rel="nofollow" href="javascript:void(0)">
-                            <i class="iconfont"></i>520余家售后网点
-                        </a>
-                    </li>
-                </ul> -->
+               
             </div>
             <div class="footer-links clearfix">
                 <div class="blank"></div>
@@ -65,7 +39,7 @@
 
 
                 <dl class="col-links">
-                    <dt>vnshop</dt>
+                    <dt>线下门店</dt>
                     <dd>
                         <a href="article.php?id=12" target="_blank" title="预约亲临到店服务" rel="nofollow">预约亲临到店服务</a>
                     </dd>
@@ -73,34 +47,34 @@
                         <a href="article.php?id=13" target="_blank" title="服务网点" rel="nofollow">服务网点</a>
                     </dd>
                     <dd>
-                        <a href="article.php?id=14" target="_blank" title="vnshop" rel="nofollow">vnshop</a>
+                        <a href="article.php?id=14" target="_blank" title="零售网点" rel="nofollow">零售网点</a>
                     </dd>
 
                 </dl>
 
 
                 <dl class="col-links">
-                    <dt>vnshop</dt>
+                    <dt>关于我们</dt>
                     <dd>
-                        <a href="article.php?id=24" target="_blank" title="vnshop" rel="nofollow">vnshop</a>
+                        <a href="article.php?id=24" target="_blank" title="了解雅客" rel="nofollow">了解雅客</a>
                     </dd>
                     <dd>
-                        <a href="article.php?id=25" target="_blank" title="vnshop" rel="nofollow">vnshop</a>
+                        <a href="article.php?id=25" target="_blank" title="加入雅客" rel="nofollow">加入雅客</a>
                     </dd>
                     <dd>
-                        <a href="article.php?id=26" target="_blank" title="vnshop" rel="nofollow">vnshop</a>
+                        <a href="article.php?id=26" target="_blank" title="雅客之家" rel="nofollow">雅客之家</a>
                     </dd>
 
                 </dl>
 
 
                 <dl class="col-links">
-                    <dt>vnshop</dt>
+                    <dt>关注我们</dt>
                     <dd>
                         <a href="article.php?id=15" target="_blank" title="官方微信" rel="nofollow">官方微信</a>
                     </dd>
                     <dd>
-                        <a href="article.php?id=16" target="_blank" title="vnshop" rel="nofollow">vnshop</a>
+                        <a href="article.php?id=16" target="_blank" title="雅客官网" rel="nofollow">雅客官网</a>
                     </dd>
                     <dd>
                         <a href="article.php?id=17" target="_blank" title="新浪微博" rel="nofollow">新浪微博</a>
@@ -124,19 +98,15 @@
     </div>
     <div class="site-info">
         <div class="container">
-            <div class="logo ir">小米官网</div>
+         
             <div class="info-text">
                 <p class="sites">
                 </p>
                 <p>
-                    ©<a href='#'>mi.shudong.wang</a> 京ICP证110507号 京ICP备10046444号 京公网安备1101080212535号 <a href='#'>京网文[2014]0059-0009号</a>
+                    ©京ICP证110507号 京ICP备10046444号 京公网安备1101080212535号 <a href='#'>京网文[2014]0059-0009号</a>
                 </p>
             </div>
-            <div class="info-links">
-                <!-- <a href="#"><img src="http://s1.mi.shudong.wang/zt/12052601/cnnicVerifyseal.png" alt="可信网站"></a> -->
-                <!-- <a href="#"><img src="http://s1.mi.shudong.wang/zt/12052601/szfwVerifyseal.gif" alt="诚信网站"></a> -->
-                <!-- <a href="#"><img src="http://s1.mi.shudong.wang/zt/12052601/save.jpg" alt="网上交易保障中心"></a> -->
-            </div>
+           
         </div>
     </div>
    </div>

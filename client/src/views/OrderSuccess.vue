@@ -9,27 +9,27 @@
     <!-- 进度条 -->
     <div class="check-step">
       <ul>
-        <li class="cur"><span>Confirm</span> address</li>
-        <li class="cur"><span>View your</span> order</li>
-        <li class="cur"><span>Make</span> payment</li>
-        <li class="cur"><span>Order</span> confirmation</li>
+        <li class="cur"><span>确认</span> 地址</li>
+          <li class="cur"><span>查看</span> 订单</li>
+          <li class="cur"><span>确认</span> 支付</li>
+          <li class="cur"><span>订单</span> 证明</li>
       </ul>
     </div>
 
     <div class="order-create">
       <div class="order-create-pic"><img src="/static/img/ok-2.png" alt=""></div>
       <div class="order-create-main">
-        <h3>Congratulations! <br>Your order is under processing!</h3>
+        <h3>恭喜您！<br>您的订单正在处理中!</h3>
         <p>
-          <span>Order ID：{{orderId}}</span>
-          <span>Order total：{{orderTotal}}</span>
+          <span>订单 ID：{{orderId}}</span>
+          <span>订单总价：{{orderTotal}}</span>
         </p>
         <div class="order-create-btn-wrap">
           <div class="btn-l-wrap">
-            <a href="javascript:;" class="btn btn--m">Cart List</a>
+            <a href="javascript:;" class="btn btn--m">购物车列表</a>
           </div>
           <div class="btn-r-wrap">
-            <a href="javascript:;" class="btn btn--m">Goods List</a>
+            <a href="javascript:;" class="btn btn--m">商品列表</a>
           </div>
         </div>
       </div>

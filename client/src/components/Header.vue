@@ -2,7 +2,7 @@
          <div class="site-header" style="clear:both;">
         <div class="container">
             <div class="header-logo">
-                <a href="index.php" title="小米官网"><img src="/static/img/vn-logo.png" /></a>
+                <a href="index.php" title="雅客官网"><img src="/static/img/vn-logo.png" /></a>
             </div>
             <div class="header-nav">
                 <ul class="nav-list">
@@ -32,13 +32,14 @@
                 <a class="cart-mini " href="flow.php">
                     <!-- <i class="iconfont">&#xe60c;</i>  -->
                     <router-link to="/cart" class="iconfont">&#xe60c;购物车</router-link>
-                    <span class="mini-cart-num J_cartNum" id="hd_cartnum">(0)</span>
+                    
                 </a>
             </div>
             <div class="topbar-info J_userInfo" id="ECS_MEMBERZONE">
                 <span v-text="nickName" > </span>
                 <a class="link"  rel="nofollow" v-if="!nickName" @click="loginModalFlag = true">用户登录</a>
                 <span class="sep" v-if="nickName">|</span>
+                
                 <a class="link" @click="logout" v-if="nickName" rel="nofollow">退出</a>
             </div>
             <!-- </div> -->

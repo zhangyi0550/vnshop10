@@ -108,13 +108,13 @@
                                 <span class="checkbox-btn item-check-btn" :class="{'check':checkedAllFlag}">
                       <svg class="icon icon-ok"><use xlink:href="#icon-ok"/></svg>
                   </span>
-                                <span>Select all</span>
+                                <span>选择全部</span>
                             </a>
                         </div>
                     </div>
                     <div class="cart-foot-r">
                         <div class="item-total">
-                            Item total: <span class="total-price">{{totalPrice}}</span>
+                            总价: <span class="total-price">{{totalPrice}}</span>
                         </div>
                         <div class="btn-wrap">
                             <a class="btn btn--red" @click="checkout">结账</a>

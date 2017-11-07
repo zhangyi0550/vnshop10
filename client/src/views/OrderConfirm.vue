@@ -34,25 +34,25 @@
       <!-- process step -->
       <div class="check-step">
         <ul>
-          <li class="cur"><span>Confirm</span> address</li>
-          <li class="cur"><span>View your</span> order</li>
-          <li><span>Make</span> payment</li>
-          <li><span>Order</span> confirmation</li>
+          <li class="cur"><span>确认</span> 地址</li>
+          <li class="cur"><span>查看</span> 订单</li>
+          <li><span>确认</span> 支付</li>
+          <li><span>订单</span> 证明</li>
         </ul>
       </div>
 
       <!-- order list -->
       <div class="page-title-normal checkout-title">
-        <h2><span>Order content</span></h2>
+        <h2><span>订单内容</span></h2>
       </div>
       <div class="item-list-wrap confirm-item-list-wrap">
         <div class="cart-item order-item">
           <div class="cart-item-head">
             <ul>
-              <li>Order contents</li>
-              <li>Price</li>
-              <li>Quantity</li>
-              <li>Subtotal</li>
+             <li>商品内容</li>
+              <li>价格</li>
+              <li>数量</li>
+              <li>合计</li>
             </ul>
           </div>
           <ul class="cart-item-list">
@@ -90,26 +90,26 @@
       <!-- Price count -->
       <div class="price-count-wrap">
         <div class="price-count">
-          <ul>
+           <ul>
             <li>
-              <span>Item subtotal:</span>
-              <span>${{subTotal}}</span>
+              <span>商品总金额:</span>
+              <span>¥{{subTotal}}</span>
             </li>
             <li>
-              <span>Shipping:</span>
-              <span>${{shipping}}</span>
+              <span>运费:</span>
+              <span>¥{{shipping}}</span>
             </li>
             <li>
-              <span>Discount:</span>
-              <span>${{discount}}</span>
+              <span>折扣:</span>
+              <span>¥{{discount}}</span>
             </li>
             <li>
-              <span>Tax:</span>
-              <span>${{tax}}</span>
+              <span>税金:</span>
+              <span>¥{{tax}}</span>
             </li>
             <li class="order-total-price">
-              <span>Order total:</span>
-              <span>${{orderTotal}}</span>
+              <span>应支付:</span>
+              <span>¥{{orderTotal}}</span>
             </li>
           </ul>
         </div>
